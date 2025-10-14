@@ -29,13 +29,43 @@ namespace Климов_Фигуры
                 b = Convert.ToDouble(s);
                 if (choice == 1)
                 {
-                    p_rect = (a + b) * 2;
-                    Console.WriteLine("\nПериметр прямоугольника: {0}", p_rect);
+                    Console.WriteLine("Что вычислять?\n[0] - площадь\n[1] - периметр\n");
+                    s = Console.ReadLine();
+                    choice = Convert.ToDouble(s);
+                    Console.WriteLine("Значения А и В");
+                    s = Console.ReadLine();
+                    a = Convert.ToDouble(s);
+                    s = Console.ReadLine();
+                    b = Convert.ToDouble(s);
+                    if (choice == 1)
+                    {
+                        p_rect = (a + b) * 2;
+                        Console.WriteLine("\nПериметр прямоугольника: {0}", p_rect);
+                    }
+                    else
+                    {
+                        s_rect = a * b;
+                        Console.WriteLine("\nПлощадь прямоугольника: {0}", s_rect);
+                    }
                 }
-                else
+                else if (choice == 0)
                 {
-                    s_rect = a * b;
-                    Console.WriteLine("\nПлощадь прямоугольника: {0}", s_rect);
+                    Console.WriteLine("Что вычислять?\n[0] - площадь\n[1] - длину окружности\n");
+                    s = Console.ReadLine();
+                    choice = Convert.ToDouble(s);
+                    Console.WriteLine("Радиус");
+                    s = Console.ReadLine();
+                    r = Convert.ToDouble(s);
+                    if (choice == 1)
+                    {
+                        c_circle = 2 * r * Math.PI;
+                        Console.WriteLine("\nДлина окружности: {0}", c_circle);
+                    }
+                    else
+                    {
+                        s_circle = r * Math.PI * Math.PI;
+                        Console.WriteLine("\nПлощадь круга: {0}", s_circle);
+                    }
                 }
             }
         }
