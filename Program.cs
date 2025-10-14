@@ -29,43 +29,70 @@ namespace Климов_Фигуры
                 b = Convert.ToDouble(s);
                 if (choice == 1)
                 {
-                    Console.WriteLine("Что вычислять?\n[0] - площадь\n[1] - периметр\n");
-                    s = Console.ReadLine();
-                    choice = Convert.ToDouble(s);
-                    Console.WriteLine("Значения А и В");
-                    s = Console.ReadLine();
-                    a = Convert.ToDouble(s);
-                    s = Console.ReadLine();
-                    b = Convert.ToDouble(s);
-                    if (choice == 1)
-                    {
-                        p_rect = (a + b) * 2;
-                        Console.WriteLine("\nПериметр прямоугольника: {0}", p_rect);
-                    }
-                    else
-                    {
-                        s_rect = a * b;
-                        Console.WriteLine("\nПлощадь прямоугольника: {0}", s_rect);
-                    }
+                    p_rect = (a + b) * 2;
+                    Console.WriteLine("\nПериметр прямоугольника: {0}", p_rect);
                 }
-                else if (choice == 0)
+                else
                 {
-                    Console.WriteLine("Что вычислять?\n[0] - площадь\n[1] - длину окружности\n");
-                    s = Console.ReadLine();
-                    choice = Convert.ToDouble(s);
-                    Console.WriteLine("Радиус");
-                    s = Console.ReadLine();
-                    r = Convert.ToDouble(s);
-                    if (choice == 1)
-                    {
-                        c_circle = 2 * r * Math.PI;
-                        Console.WriteLine("\nДлина окружности: {0}", c_circle);
-                    }
-                    else
-                    {
-                        s_circle = r * Math.PI * Math.PI;
-                        Console.WriteLine("\nПлощадь круга: {0}", s_circle);
-                    }
+                    s_rect = a * b;
+                    Console.WriteLine("\nПлощадь прямоугольника: {0}", s_rect);
+                }
+            }
+            else if (choice == 0)
+            {
+                Console.WriteLine("Что вычислять?\n[0] - площадь\n[1] - длину окружности\n");
+                s = Console.ReadLine();
+                choice = Convert.ToDouble(s);
+                Console.WriteLine("Радиус");
+                s = Console.ReadLine();
+                r = Convert.ToDouble(s);
+                if (choice == 1)
+                {
+                    c_circle = 2 * r * Math.PI;
+                    Console.WriteLine("\nДлина окружности: {0}", c_circle);
+                }
+                else
+                {
+                    s_circle = r * Math.PI * Math.PI;
+                    Console.WriteLine("\nПлощадь круга: {0}", s_circle);
+                }
+            }
+            else if (choice == 0)
+            {
+                Console.WriteLine("Что вычислять?\n[0] - площадь\n[1] - длину окружности\n");
+                s = Console.ReadLine();
+                choice = Convert.ToDouble(s);
+                Console.WriteLine("Радиус");
+                s = Console.ReadLine();
+                r = Convert.ToDouble(s);
+                if (choice == 1)
+                {
+                    c_circle = 2 * r * Math.PI;
+                    Console.WriteLine("\nДлина окружности: {0}", c_circle);
+                }
+                else
+                {
+                    s_circle = r * Math.PI * Math.PI;
+                    Console.WriteLine("\nПлощадь круга: {0}", s_circle);
+                }
+            }
+            else
+            {
+                Console.WriteLine("Что вычислять?\n[0] - площадь поверхности\n[1] - объём\n");
+                s = Console.ReadLine();
+                choice = Convert.ToDouble(s);
+                Console.WriteLine("Радиус");
+                s = Console.ReadLine();
+                r = Convert.ToDouble(s);
+                if (choice == 1)
+                {
+                    v_ball = 4 / 3 * r * r * r * Math.PI;
+                    Console.WriteLine("\nОбъём шара: {0}", v_ball);
+                }
+                else
+                {
+                    s_ball = 4 * r * r * Math.PI;
+                    Console.WriteLine("\nПлощадь поверхности шара: {0}", s_ball);
                 }
             }
         }
