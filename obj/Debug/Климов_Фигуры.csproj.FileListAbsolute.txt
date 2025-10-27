@@ -1,8 +1,0 @@
-C:\Users\stud.R213-11\Desktop\Климов_Фигуры\bin\Debug\Климов_Фигуры.exe.config
-C:\Users\stud.R213-11\Desktop\Климов_Фигуры\bin\Debug\Климов_Фигуры.exe
-C:\Users\stud.R213-11\Desktop\Климов_Фигуры\bin\Debug\Климов_Фигуры.pdb
-C:\Users\stud.R213-11\Desktop\Климов_Фигуры\obj\Debug\Климов_Фигуры.csproj.AssemblyReference.cache
-C:\Users\stud.R213-11\Desktop\Климов_Фигуры\obj\Debug\Климов_Фигуры.csproj.SuggestedBindingRedirects.cache
-C:\Users\stud.R213-11\Desktop\Климов_Фигуры\obj\Debug\Климов_Фигуры.csproj.CoreCompileInputs.cache
-C:\Users\stud.R213-11\Desktop\Климов_Фигуры\obj\Debug\Климов_Фигуры.exe
-C:\Users\stud.R213-11\Desktop\Климов_Фигуры\obj\Debug\Климов_Фигуры.pdb
